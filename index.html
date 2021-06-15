@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    
-      <h1>Mi primer etiqueta</h1>
+    <h1 id="titulo">Mi primer etiqueta</h1>
 
     <h2>titulo 2</h2>
     <h3>titulo 3</h3>
@@ -16,27 +16,33 @@
     <h5>titulo 5</h5>
     <h6>titulo 6</h6>
 
-     <p> 
-       <b>este </b>es un parrafo en negritas 
-     </p>
+    <p id="promocional"><b>este </b>es un parrafo en negritas promocional</p>
 
-     <input type="text"> <br>
-     
+    <input type="text" /> <br />
 
-     <form action="">
-        <input type="email">
-        <button type="submit"> enviar  </button>
-     </form> <br>
-     <br>
-     
-     <!-- Comentario -->
+    <form action="">
+      <input type="email" />
+      <button type="submit" id="boton">enviar</button>
+    </form>
+    <br />
+    <br />
 
-     <input type="text" placeholder="Coloca tu nombre"> <br>
-     <input type="text" placeholder="Coloca tu apellido"> <br>
-     <input type="number" placeholder="Coloca tu edad"> <br>
-     <input type="email" placeholder="Coloca tu email">
-     <input type="password" placeholder="Coloca tu contraseña"> 
-      <input type="submit">
+    <!-- Comentario -->
+    <form action="">
+      <label for="name">
+        <input type="text" id="name" required placeholder="Coloca tu nombre" />
+      </label>
+      <br />
+
+
+      <input type="text" placeholder="Coloca tu apellido" /> <br />
+      <input type="number" placeholder="Coloca tu edad" /> <br />
+      <input type="email" placeholder="Coloca tu email" />
+      <input type="password" placeholder="Coloca tu contraseña" />
+      <input type="submit" />
       <button type="submit">enviar</button>
+    </form>
+
+    <img src="capterra.png" alt="imagen de estrellas">
   </body>
 </html>

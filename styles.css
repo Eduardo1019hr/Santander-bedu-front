@@ -1,0 +1,21 @@
+body{
+    background-color: #fffbf7;
+    
+}
+#titulo{
+    color: #46484c;
+    font-size: 50px;
+    background-color: aqua;
+    text-align: center;
+}
+
+#promocional{
+    color: #8b8b8bcc;
+    
+}
+
+#boton{
+   color:#fff ; 
+   background-color: #025157;
+}
+
